@@ -13,10 +13,10 @@
   </temporal>
   <renderer-v2 symbollevels="0" type="RuleRenderer" enableorderby="0" forceraster="0">
     <rules key="{3a6fe2a2-968c-4a44-ba6c-1fc68f8492b6}">
-      <rule scalemindenom="1" symbol="0" scalemaxdenom="5000" label="zoom fort" key="{252aa93e-e999-4464-b467-731a43ecfe70}">
+      <rule scalemindenom="1" symbol="0" scalemaxdenom="1000" label="zoom fort" key="{252aa93e-e999-4464-b467-731a43ecfe70}">
         <rule symbol="1" label="symbole" key="{2013a83d-20dd-4068-9950-203aad297439}"/>
       </rule>
-      <rule scalemindenom="5000" symbol="2" scalemaxdenom="50000" label="zoom moyen" key="{fd30187c-2437-4c49-af49-5e490e15114e}"/>
+      <rule scalemindenom="1000" symbol="2" scalemaxdenom="50000" label="zoom moyen" key="{fd30187c-2437-4c49-af49-5e490e15114e}"/>
       <rule scalemindenom="50000" symbol="3" scalemaxdenom="10129603" label="zoom faible" key="{0cef7ff0-2a38-4b52-a8dc-493c666508e1}"/>
     </rules>
     <symbols>
@@ -62,33 +62,6 @@
           <prop v="Pixel" k="offset_unit"/>
           <prop v="diameter" k="scale_method"/>
           <prop v="5" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option value="" name="name" type="QString"/>
-              <Option name="properties"/>
-              <Option value="collection" name="type" type="QString"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-        <layer pass="0" locked="0" class="SimpleMarker" enabled="1">
-          <prop v="0" k="angle"/>
-          <prop v="255,0,0,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="cross" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="53,175,109,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="2" k="size"/>
           <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
           <prop v="MM" k="size_unit"/>
           <prop v="1" k="vertical_anchor_point"/>
@@ -152,9 +125,7 @@
     </symbols>
   </renderer-v2>
   <customproperties>
-    <property key="dualview/previewExpressions">
-      <value>"name"</value>
-    </property>
+    <property value="&quot;name&quot;" key="dualview/previewExpressions"/>
     <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>

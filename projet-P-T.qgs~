@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-05-15T10:06:54" saveUser="mathieu" projectname="">
+<qgis saveUserFull="mathieu" version="3.16.1-Hannover" saveDateTime="2021-05-15T10:07:03" saveUser="mathieu" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -8074,7 +8074,7 @@ def my_form_open(dialog, layer, feature):
                   <prop v="1" k="horizontal_anchor_point"/>
                   <prop v="bevel" k="joinstyle"/>
                   <prop v="line" k="name"/>
-                  <prop v="1.39999999999999991,0" k="offset"/>
+                  <prop v="1.19999999999999996,0" k="offset"/>
                   <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
                   <prop v="MM" k="offset_unit"/>
                   <prop v="176,123,0,255" k="outline_color"/>

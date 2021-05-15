@@ -1,0 +1,9 @@
+lower(hstore_to_json['symbol']) like '%blue%'
+-- colors
+and lower(hstore_to_json['symbol']) not like '%white%'
+and lower(hstore_to_json['symbol']) not like '%yellow%'
+and lower(hstore_to_json['symbol']) not like '%red%'
+-- shapes
+and lower(hstore_to_json['symbol']) not like '%diamond%'
+and lower(hstore_to_json['symbol']) not like '%cross%'
+and lower(hstore_to_json['symbol']) not like '%triangle%'

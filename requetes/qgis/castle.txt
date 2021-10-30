@@ -1,0 +1,15 @@
+with_variable(
+'svg',
+case
+when osm_id % 2 then 'ghost1.svg'
+when osm_id % 3 then 'ghost2.svg'
+when osm_id % 5 then 'ghost3.svg'
+end,
+format('https://raw.githubusercontent.com/data-osm/data-osm-style/main/svgs/castle/%1', @svg)
+)
+
+ruins
+https://demo.openstreetmap.fr/map?layers=couche,733,10&pos=2.8601,42.8817,13
+
+ruins defensive
+https://demo.openstreetmap.fr/map?layers=couche,733,10&pos=2.8601,42.8817,13

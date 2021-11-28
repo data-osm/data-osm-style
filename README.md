@@ -3,7 +3,7 @@
 Ce répertoire contient les styles utilisés dans l'application OSM-Data
 [https://demo.openstreetmap.fr/map](https://demo.openstreetmap.fr/map)
 
-Licence : CC-BY-SA - Mathieu Rajerison d'OSMData
+Licence : CC-BY-SA - Mathieu Rajerison & OSMData
 
 ## Charger un style sous QGIS
 [Allez dans le dossier QML pour récupérer des styles](https://github.com/datagistips/osm-data/tree/main/osm-data/qml)
